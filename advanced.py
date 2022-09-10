@@ -14,7 +14,7 @@ print(Colorate.Vertical(Colors.blue_to_purple, (Center.XCenter(
         /_______  /\____/|____/\____/\____ |\___  >\_/  
                   \/                        \/    \/   
         Made by: SoloDev#7416
-        Id: 62naj252ngfn2
+        Id: 62naj2aga2n3fn3
         Time it took to make it: 3min
     """
 )), 1))
