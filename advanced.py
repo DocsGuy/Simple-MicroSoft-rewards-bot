@@ -21,9 +21,13 @@ print(Colorate.Vertical(Colors.blue_to_purple, (Center.XCenter(
 #-------------------------------------------------------------------------------------------#
 N = 4
 String = ""
+count = 0
 def bot():
     for i in range(90):
         try:
+            randomTitles = ["Simple Microsoft Search Bot made by SoloDev#7416","github.com/DocsGuy","discord.gg/h3sExDK6uQ"]
+            os.system(f"title {random.choice(randomTitles)}")
+            count =+ 1
             String = ''.join(random.choices(string.ascii_lowercase + string.digits, k=N))
             os.system(f"start https://www.bing.com/search?q={String}")
             time.sleep(7)
