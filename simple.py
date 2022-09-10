@@ -4,7 +4,7 @@ import random
 import time
 from pystyle import Colorate, Colors, Write, Center
 #-------------------------------------------------------------------------------------------#
-    print(Colorate.Vertical(Colors.blue_to_purple, (Center.XCenter(
+print(Colorate.Vertical(Colors.blue_to_purple, (Center.XCenter(
     """
           _________      .__             .___           
          /   _____/ ____ |  |   ____   __| _/_______  __
@@ -16,6 +16,7 @@ from pystyle import Colorate, Colors, Write, Center
         Id: 62naj252ngfn2
         Time it took to make it: 1min
     """
+)), 1))
 #-------------------------------------------------------------------------------------------#
 N = 4
 String = ""
